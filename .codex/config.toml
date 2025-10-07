@@ -1,10 +1,10 @@
 # Codex CLI Configuration
 model = "gpt-3.5-turbo"
-model_provider = "openai"
+model_provider = "mock"
 approval_policy = "never"
 sandbox_mode = "danger-full-access"
 
-# Mock provider for testing without API keys
+# Mock provider for testing
 [model_providers.mock]
 name = "Mock Provider"
 base_url = "http://localhost:8080/v1"
